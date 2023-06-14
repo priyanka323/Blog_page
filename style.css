@@ -1,0 +1,153 @@
+/* Add your CSS styles here */
+
+/* Header styles */
+header {
+    /* Styles for the header section */
+  }
+  
+  .logo {
+    /* Styles for the logo section */
+  }
+  
+  nav {
+    /* Styles for the navigation menu */
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    border-radius: 20px;
+    padding: 8px;
+    outline: rgb(141, 212, 219);
+    width: 200px;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .sliding-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+.sliding-item {
+    flex: 0 0 25%;
+    /* Adjust this value as per your desired spacing */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    animation: slide 5s infinite linear;
+}
+
+.rotated {
+    transform: rotate(28deg);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Additional styling for emoji, heading, and description */
+.emoji {
+    font-size: 32px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#sliding-text {
+    opacity: 0;
+    font-size: 10px;
+    transform: translateX(-100%);
+    transition: opacity 1.5s, transform 1.5s;
+}
+  /* Hero section styles */
+  .hero-section {
+    /* Styles for the hero section */
+  }
+  
+  /* Blog segments section styles */
+  .blog-segments-section {
+    /* Styles for the blog segments section */
+  }
+  
+  .segment {
+    /* Styles for each segment */
+  }
+  
+  /* Sub-segments section styles */
+  .sub-segments-section {
+    /* Styles for the sub-segments section */
+  }
+  
+  .sub-segment {
+    /* Styles for each sub-segment */
+  }
+  
+  /* News section styles */
+  .news-section {
+    /* Styles for the news section */
+  }
+  
+  .news-feed {
+    /* Styles for the news feed */
+  }
+  
+  .news-item {
+    /* Styles for each news item */
+  }
+  
+  .see-all {
+    /* Styles for the "See All" button */
+  }
+  
+  /* Events section styles */
+  .events-section {
+    /* Styles for the events section */
+  }
+  
+  .event {
+    /* Styles for each event */
+  }
+  
+  /* Jobs section styles */
+  .jobs-section {
+    /* Styles for the jobs section */
+  }
+  
+  .job {
+    /* Styles for each job */
+  }
+  
+  /* Footer styles */
+  footer {
+    /* Styles for the footer section */
+  }
+  
+  .social-media-icons {
+    /* Styles for social media icons */
+  }
+  
